@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:CameraKaleido/CameraKaleido.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:GyroSpiro/GyroSpiro.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:/MacData/Work/HPI/BGSU-StemInThePark/Git/iPad/TouchBlob/TouchShapes.xcodeproj">
+   </FileRef>
+</Workspace>

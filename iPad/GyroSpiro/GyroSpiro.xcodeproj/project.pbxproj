@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2E65D3F1BA0918C0026B84F /* AlrightSans-Medium-v3.otf in Resources */ = {isa = PBXBuildFile; fileRef = A2E65D3E1BA0918C0026B84F /* AlrightSans-Medium-v3.otf */; };
+		A2E65D411BA0949E0026B84F /* AlrightSans-Black-v3.otf in Resources */ = {isa = PBXBuildFile; fileRef = A2E65D401BA0949E0026B84F /* AlrightSans-Black-v3.otf */; };
+		CB9B2B6A1B67BF8400A3A274 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9B2B691B67BF8400A3A274 /* main.m */; };
+		CB9B2B6D1B67BF8400A3A274 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9B2B6C1B67BF8400A3A274 /* AppDelegate.m */; };
+		CB9B2B701B67BF8400A3A274 /* GyroSpiroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9B2B6F1B67BF8400A3A274 /* GyroSpiroViewController.m */; };
+		CB9B2B731B67BF8400A3A274 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB9B2B711B67BF8400A3A274 /* Main.storyboard */; };
+		CB9B2B751B67BF8400A3A274 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB9B2B741B67BF8400A3A274 /* Images.xcassets */; };
+		CB9B2B841B67BF8400A3A274 /* GyroSpiroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9B2B831B67BF8400A3A274 /* GyroSpiroTests.m */; };
+		CB9B2B8F1B67C4D200A3A274 /* DKVerticalColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9B2B8E1B67C4D200A3A274 /* DKVerticalColorPicker.m */; };
+		CB9B2B921B67C71E00A3A274 /* GyroSpiroView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9B2B911B67C71E00A3A274 /* GyroSpiroView.m */; };
+		CB9B2B941B67F36900A3A274 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9B2B931B67F36900A3A274 /* CoreMotion.framework */; };
+		CB9DB9411B6A8EB400B7D54F /* ShapeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9DB9401B6A8EB400B7D54F /* ShapeTableViewController.m */; };
+		CBA4B29F1BA1EE3900CE71D6 /* IntroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBA4B29C1BA1EE3900CE71D6 /* IntroViewController.xib */; };
+		CBA4B2A01BA1EE3900CE71D6 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA4B29D1BA1EE3900CE71D6 /* IntroViewController.m */; };
+		CBAB11111B84C0A900B1C6DE /* SendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAB110F1B84C0A900B1C6DE /* SendViewController.m */; };
+		CBAB11121B84C0A900B1C6DE /* SendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBAB11101B84C0A900B1C6DE /* SendViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB9B2B7E1B67BF8400A3A274 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB9B2B5C1B67BF8400A3A274 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB9B2B631B67BF8400A3A274;
+			remoteInfo = GyroSpiro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2E65D3E1BA0918C0026B84F /* AlrightSans-Medium-v3.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlrightSans-Medium-v3.otf"; sourceTree = "<group>"; };
+		A2E65D401BA0949E0026B84F /* AlrightSans-Black-v3.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlrightSans-Black-v3.otf"; sourceTree = "<group>"; };
+		CB9B2B641B67BF8400A3A274 /* GyroSpiro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GyroSpiro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9B2B681B67BF8400A3A274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB9B2B691B67BF8400A3A274 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB9B2B6B1B67BF8400A3A274 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB9B2B6C1B67BF8400A3A274 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB9B2B6E1B67BF8400A3A274 /* GyroSpiroViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GyroSpiroViewController.h; sourceTree = "<group>"; };
+		CB9B2B6F1B67BF8400A3A274 /* GyroSpiroViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GyroSpiroViewController.m; sourceTree = "<group>"; };
+		CB9B2B721B67BF8400A3A274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB9B2B741B67BF8400A3A274 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB9B2B7D1B67BF8400A3A274 /* GyroSpiroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GyroSpiroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9B2B821B67BF8400A3A274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB9B2B831B67BF8400A3A274 /* GyroSpiroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GyroSpiroTests.m; sourceTree = "<group>"; };
+		CB9B2B8D1B67C4D200A3A274 /* DKVerticalColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKVerticalColorPicker.h; sourceTree = "<group>"; };
+		CB9B2B8E1B67C4D200A3A274 /* DKVerticalColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKVerticalColorPicker.m; sourceTree = "<group>"; };
+		CB9B2B901B67C71E00A3A274 /* GyroSpiroView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GyroSpiroView.h; sourceTree = "<group>"; };
+		CB9B2B911B67C71E00A3A274 /* GyroSpiroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GyroSpiroView.m; sourceTree = "<group>"; };
+		CB9B2B931B67F36900A3A274 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		CB9DB93F1B6A8EB400B7D54F /* ShapeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeTableViewController.h; sourceTree = "<group>"; };
+		CB9DB9401B6A8EB400B7D54F /* ShapeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeTableViewController.m; sourceTree = "<group>"; };
+		CBA4B29C1BA1EE3900CE71D6 /* IntroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IntroViewController.xib; sourceTree = "<group>"; };
+		CBA4B29D1BA1EE3900CE71D6 /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
+		CBA4B29E1BA1EE3900CE71D6 /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
+		CBAB110E1B84C0A900B1C6DE /* SendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendViewController.h; sourceTree = "<group>"; };
+		CBAB110F1B84C0A900B1C6DE /* SendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendViewController.m; sourceTree = "<group>"; };
+		CBAB11101B84C0A900B1C6DE /* SendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SendViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB9B2B611B67BF8400A3A274 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9B2B941B67F36900A3A274 /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9B2B7A1B67BF8400A3A274 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2E65D3D1BA08DCD0026B84F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A2E65D401BA0949E0026B84F /* AlrightSans-Black-v3.otf */,
+				A2E65D3E1BA0918C0026B84F /* AlrightSans-Medium-v3.otf */,
+			);
+			name = Resources;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		CB9B2B5B1B67BF8400A3A274 = {
+			isa = PBXGroup;
+			children = (
+				CB9B2B661B67BF8400A3A274 /* GyroSpiro */,
+				CB9B2B801B67BF8400A3A274 /* GyroSpiroTests */,
+				CB9B2B651B67BF8400A3A274 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB9B2B651B67BF8400A3A274 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB9B2B641B67BF8400A3A274 /* GyroSpiro.app */,
+				CB9B2B7D1B67BF8400A3A274 /* GyroSpiroTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB9B2B661B67BF8400A3A274 /* GyroSpiro */ = {
+			isa = PBXGroup;
+			children = (
+				CB9B2B6B1B67BF8400A3A274 /* AppDelegate.h */,
+				CB9B2B6C1B67BF8400A3A274 /* AppDelegate.m */,
+				CB9B2B6E1B67BF8400A3A274 /* GyroSpiroViewController.h */,
+				CB9B2B6F1B67BF8400A3A274 /* GyroSpiroViewController.m */,
+				CB9B2B8D1B67C4D200A3A274 /* DKVerticalColorPicker.h */,
+				CB9B2B8E1B67C4D200A3A274 /* DKVerticalColorPicker.m */,
+				CB9B2B901B67C71E00A3A274 /* GyroSpiroView.h */,
+				CB9B2B911B67C71E00A3A274 /* GyroSpiroView.m */,
+				CB9B2B711B67BF8400A3A274 /* Main.storyboard */,
+				CB9DB93F1B6A8EB400B7D54F /* ShapeTableViewController.h */,
+				CB9DB9401B6A8EB400B7D54F /* ShapeTableViewController.m */,
+				CBAB110E1B84C0A900B1C6DE /* SendViewController.h */,
+				CBAB110F1B84C0A900B1C6DE /* SendViewController.m */,
+				CBAB11101B84C0A900B1C6DE /* SendViewController.xib */,
+				CBA4B29E1BA1EE3900CE71D6 /* IntroViewController.h */,
+				CBA4B29D1BA1EE3900CE71D6 /* IntroViewController.m */,
+				CBA4B29C1BA1EE3900CE71D6 /* IntroViewController.xib */,
+				CB9B2B741B67BF8400A3A274 /* Images.xcassets */,
+				CB9B2B931B67F36900A3A274 /* CoreMotion.framework */,
+				CB9B2B671B67BF8400A3A274 /* Supporting Files */,
+				A2E65D3D1BA08DCD0026B84F /* Resources */,
+			);
+			path = GyroSpiro;
+			sourceTree = "<group>";
+		};
+		CB9B2B671B67BF8400A3A274 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB9B2B681B67BF8400A3A274 /* Info.plist */,
+				CB9B2B691B67BF8400A3A274 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB9B2B801B67BF8400A3A274 /* GyroSpiroTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB9B2B831B67BF8400A3A274 /* GyroSpiroTests.m */,
+				CB9B2B811B67BF8400A3A274 /* Supporting Files */,
+			);
+			path = GyroSpiroTests;
+			sourceTree = "<group>";
+		};
+		CB9B2B811B67BF8400A3A274 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB9B2B821B67BF8400A3A274 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB9B2B631B67BF8400A3A274 /* GyroSpiro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB9B2B871B67BF8400A3A274 /* Build configuration list for PBXNativeTarget "GyroSpiro" */;
+			buildPhases = (
+				CB9B2B601B67BF8400A3A274 /* Sources */,
+				CB9B2B611B67BF8400A3A274 /* Frameworks */,
+				CB9B2B621B67BF8400A3A274 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GyroSpiro;
+			productName = GyroSpiro;
+			productReference = CB9B2B641B67BF8400A3A274 /* GyroSpiro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB9B2B7C1B67BF8400A3A274 /* GyroSpiroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB9B2B8A1B67BF8400A3A274 /* Build configuration list for PBXNativeTarget "GyroSpiroTests" */;
+			buildPhases = (
+				CB9B2B791B67BF8400A3A274 /* Sources */,
+				CB9B2B7A1B67BF8400A3A274 /* Frameworks */,
+				CB9B2B7B1B67BF8400A3A274 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB9B2B7F1B67BF8400A3A274 /* PBXTargetDependency */,
+			);
+			name = GyroSpiroTests;
+			productName = GyroSpiroTests;
+			productReference = CB9B2B7D1B67BF8400A3A274 /* GyroSpiroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB9B2B5C1B67BF8400A3A274 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Hanson, Inc.";
+				TargetAttributes = {
+					CB9B2B631B67BF8400A3A274 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 39N83CZ83W;
+					};
+					CB9B2B7C1B67BF8400A3A274 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CB9B2B631B67BF8400A3A274;
+					};
+				};
+			};
+			buildConfigurationList = CB9B2B5F1B67BF8400A3A274 /* Build configuration list for PBXProject "GyroSpiro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB9B2B5B1B67BF8400A3A274;
+			productRefGroup = CB9B2B651B67BF8400A3A274 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB9B2B631B67BF8400A3A274 /* GyroSpiro */,
+				CB9B2B7C1B67BF8400A3A274 /* GyroSpiroTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB9B2B621B67BF8400A3A274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBAB11121B84C0A900B1C6DE /* SendViewController.xib in Resources */,
+				CB9B2B731B67BF8400A3A274 /* Main.storyboard in Resources */,
+				A2E65D3F1BA0918C0026B84F /* AlrightSans-Medium-v3.otf in Resources */,
+				CBA4B29F1BA1EE3900CE71D6 /* IntroViewController.xib in Resources */,
+				CB9B2B751B67BF8400A3A274 /* Images.xcassets in Resources */,
+				A2E65D411BA0949E0026B84F /* AlrightSans-Black-v3.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9B2B7B1B67BF8400A3A274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB9B2B601B67BF8400A3A274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9B2B8F1B67C4D200A3A274 /* DKVerticalColorPicker.m in Sources */,
+				CB9DB9411B6A8EB400B7D54F /* ShapeTableViewController.m in Sources */,
+				CB9B2B921B67C71E00A3A274 /* GyroSpiroView.m in Sources */,
+				CBA4B2A01BA1EE3900CE71D6 /* IntroViewController.m in Sources */,
+				CB9B2B701B67BF8400A3A274 /* GyroSpiroViewController.m in Sources */,
+				CB9B2B6D1B67BF8400A3A274 /* AppDelegate.m in Sources */,
+				CB9B2B6A1B67BF8400A3A274 /* main.m in Sources */,
+				CBAB11111B84C0A900B1C6DE /* SendViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9B2B791B67BF8400A3A274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9B2B841B67BF8400A3A274 /* GyroSpiroTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB9B2B7F1B67BF8400A3A274 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB9B2B631B67BF8400A3A274 /* GyroSpiro */;
+			targetProxy = CB9B2B7E1B67BF8400A3A274 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB9B2B711B67BF8400A3A274 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB9B2B721B67BF8400A3A274 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB9B2B851B67BF8400A3A274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CB9B2B861B67BF8400A3A274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB9B2B881B67BF8400A3A274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"APPSTORE=0",
+				);
+				INFOPLIST_FILE = GyroSpiro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hansoninc.steminthepark.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB9B2B891B67BF8400A3A274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = "APPSTORE=0";
+				INFOPLIST_FILE = GyroSpiro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hansoninc.steminthepark.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CB9B2B8B1B67BF8400A3A274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GyroSpiroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hansoninc.steminthepark.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GyroSpiro.app/GyroSpiro";
+			};
+			name = Debug;
+		};
+		CB9B2B8C1B67BF8400A3A274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = GyroSpiroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hansoninc.steminthepark.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GyroSpiro.app/GyroSpiro";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB9B2B5F1B67BF8400A3A274 /* Build configuration list for PBXProject "GyroSpiro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9B2B851B67BF8400A3A274 /* Debug */,
+				CB9B2B861B67BF8400A3A274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB9B2B871B67BF8400A3A274 /* Build configuration list for PBXNativeTarget "GyroSpiro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9B2B881B67BF8400A3A274 /* Debug */,
+				CB9B2B891B67BF8400A3A274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB9B2B8A1B67BF8400A3A274 /* Build configuration list for PBXNativeTarget "GyroSpiroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9B2B8B1B67BF8400A3A274 /* Debug */,
+				CB9B2B8C1B67BF8400A3A274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB9B2B5C1B67BF8400A3A274 /* Project object */;
+}
